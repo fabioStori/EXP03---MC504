@@ -4,11 +4,9 @@ Github - https://github.com/fabioStori/EXP03---MC504
 Disponibilizados o programa feito em .ipynb (Jupyter Notebook ferramenta para execução dinâmica de células com código python) e em .py.
  
 Para rodar o .py:
- sudo python3 EXP03.py <caminho_do_everest.root.ext3> >out.txt
+ python3 EXP03.py <caminho_do_everest.root.ext3>
 Exemplo de execução:
- sudo python3 EXP03.py ../../Downloads/everest.root.ext3 >out.txt
- “>out.txt” foi acrescentado para melhor visualização das saídas.
- 
+ python3 EXP03.py ../../Downloads/everest.root.ext3 
  
 Dependências:
 Pandas: sudo -H pip3 install pandas
