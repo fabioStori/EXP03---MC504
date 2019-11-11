@@ -9,10 +9,10 @@ Exemplo de execução:
  python3 EXP03.py ../../Downloads/everest.root.ext3 
  
 Dependências:
-Pandas: sudo -H pip3 install pandas
+Pandas: pip3 install pandas
  
 Caso deseje visualizar o código no Jupyter Notebook:
 Visualizar pelo github acima, ou instalando, rodando e abrindo o .ipynb pelo comando Jupyter Notebook:
-sudo python3 -m pip install --upgrade pip |
-sudo python3 -m pip install jupyter |
+python3 -m pip install --upgrade pip |
+python3 -m pip install jupyter |
 Para rodar: jupyter notebook
