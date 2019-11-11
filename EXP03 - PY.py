@@ -1,8 +1,17 @@
+import os
 import ctypes
 import re
 import pandas as pd
 import sys
 from math import ceil
+
+if len(sys.argv) < 2:
+    print('usage: python "%s" "FILE_PATH.ext3"' % sys.argv[0])
+    exit(1)
+
+if not os.path.exists(sys.argv[1]):
+    print('Error: file "%s" not found...' % sys.argv[1])
+    exit(2)
 
 file_system = open(sys.argv[1], 'rb')
 
